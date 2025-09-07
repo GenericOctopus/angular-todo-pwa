@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:angular-todo-pwa": "node dist/angular-todo-pwa/server/server.mjs",
-    "deploy": "ng build --configuration=github-pages && npx gh-pages -d dist/angular-todo-pwa/browser"
+    "deploy": "ng build --configuration github-pages && npx gh-pages -d dist/angular-todo-pwa/browser"
   },
   "prettier": {
     "printWidth": 100,

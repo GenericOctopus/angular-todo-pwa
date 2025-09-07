@@ -36,8 +36,7 @@
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
-            },
-            "baseHref": "/angular-todo-pwa/"
+            }
           },
           "configurations": {
             "production": {
@@ -60,6 +59,23 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "github-pages": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kB",
+                  "maximumError": "1MB"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "4kB",
+                  "maximumError": "8kB"
+                }
+              ],
+              "outputHashing": "all",
+              "baseHref": "/angular-todo-pwa/",
+              "serviceWorker": "ngsw-config.json"
             }
           },
           "defaultConfiguration": "production"
@@ -72,6 +88,9 @@
             },
             "development": {
               "buildTarget": "angular-todo-pwa:build:development"
+            },
+            "github-pages": {
+              "buildTarget": "angular-todo-pwa:build:github-pages"
             }
           },
           "defaultConfiguration": "development"
