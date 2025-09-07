@@ -26,5 +26,25 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "todo-api",
+      "urls": [
+        "/api/todos"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 100,
+        "maxAge": "1d",
+        "timeout": "5s"
+      }
+    }
+  ],
+  "navigationUrls": [
+    "/**",
+    "!/**/*.*",
+    "!/**/*__*",
+    "!/**/*__*/**"
   ]
 }

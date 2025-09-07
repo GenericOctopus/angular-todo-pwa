@@ -1,6 +1,9 @@
 {
-  "name": "angular-todo-pwa",
-  "short_name": "angular-todo-pwa",
+  "name": "Todo PWA",
+  "short_name": "TodoPWA",
+  "description": "A simple todo list app that works offline",
+  "theme_color": "#1976d2",
+  "background_color": "#f5f5f5",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
