@@ -9,9 +9,11 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
     provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes), provideClientHydration(withEventReplay()), provideServiceWorker('ngsw-worker.js', {
-            enabled: true,
-            registrationStrategy: 'registerWhenStable:30000'
-          })
+    provideRouter(routes), 
+    provideClientHydration(withEventReplay()), 
+    provideServiceWorker('./ngsw-worker.js', {
+      enabled: true,
+      registrationStrategy: 'registerImmediately'
+    })
   ]
 };
