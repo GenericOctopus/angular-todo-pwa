@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1757271162023,
+  "timestamp": 1757271612496,
   "index": "/angular-todo-pwa/index.csr.html",
   "assetGroups": [
     {
@@ -10,13 +10,7 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [
-        "/angular-todo-pwa/favicon.ico",
-        "/angular-todo-pwa/main-W4H4VD4D.js",
-        "/angular-todo-pwa/manifest.webmanifest",
-        "/angular-todo-pwa/polyfills-5CFQRCPP.js",
-        "/angular-todo-pwa/styles-5INURTSO.css"
-      ],
+      "urls": [],
       "patterns": []
     },
     {
@@ -26,50 +20,26 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [
-        "/angular-todo-pwa/icons/icon-128x128.png",
-        "/angular-todo-pwa/icons/icon-144x144.png",
-        "/angular-todo-pwa/icons/icon-152x152.png",
-        "/angular-todo-pwa/icons/icon-192x192.png",
-        "/angular-todo-pwa/icons/icon-384x384.png",
-        "/angular-todo-pwa/icons/icon-512x512.png",
-        "/angular-todo-pwa/icons/icon-72x72.png",
-        "/angular-todo-pwa/icons/icon-96x96.png"
-      ],
+      "urls": [],
       "patterns": []
     }
   ],
   "dataGroups": [
     {
-      "name": "todo-api",
+      "name": "app-data",
       "patterns": [
-        "\\/api\\/todos"
+        "\\/.*"
       ],
-      "strategy": "freshness",
+      "strategy": "performance",
       "maxSize": 100,
-      "maxAge": 86400000,
-      "timeoutMs": 5000,
+      "maxAge": 604800000,
       "cacheQueryOptions": {
         "ignoreVary": true
       },
       "version": 1
     }
   ],
-  "hashTable": {
-    "/angular-todo-pwa/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/angular-todo-pwa/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
-    "/angular-todo-pwa/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
-    "/angular-todo-pwa/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
-    "/angular-todo-pwa/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
-    "/angular-todo-pwa/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
-    "/angular-todo-pwa/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
-    "/angular-todo-pwa/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "/angular-todo-pwa/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/angular-todo-pwa/main-W4H4VD4D.js": "a0eadedc5d3eec161b7b98a9127d648ff8d7f31e",
-    "/angular-todo-pwa/manifest.webmanifest": "045ecaf86f4db9e4042a0aff4c9aa6135f5f582c",
-    "/angular-todo-pwa/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
-    "/angular-todo-pwa/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-  },
+  "hashTable": {},
   "navigationUrls": [
     {
       "positive": true,

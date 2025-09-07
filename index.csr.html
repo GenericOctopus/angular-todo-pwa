@@ -17,5 +17,14 @@
 <body ngcm="">
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-W4H4VD4D.js" type="module"></script></body>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./ngsw-worker.js')
+          .then(reg => console.log('Service worker registered:', reg))
+          .catch(err => console.log('Service worker registration failed:', err));
+      });
+    }
+  </script>
+<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-B3J4A3CO.js" type="module"></script></body>
 </html>
