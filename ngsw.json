@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1757269621904,
+  "timestamp": 1757271162023,
   "index": "/angular-todo-pwa/index.csr.html",
   "assetGroups": [
     {
@@ -12,8 +12,7 @@
       },
       "urls": [
         "/angular-todo-pwa/favicon.ico",
-        "/angular-todo-pwa/index.csr.html",
-        "/angular-todo-pwa/main-U43Q7BUZ.js",
+        "/angular-todo-pwa/main-W4H4VD4D.js",
         "/angular-todo-pwa/manifest.webmanifest",
         "/angular-todo-pwa/polyfills-5CFQRCPP.js",
         "/angular-todo-pwa/styles-5INURTSO.css"
@@ -66,9 +65,8 @@
     "/angular-todo-pwa/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/angular-todo-pwa/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/angular-todo-pwa/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/angular-todo-pwa/index.csr.html": "02072d1f3517dc8efb8d884507635ab8a2795771",
-    "/angular-todo-pwa/main-U43Q7BUZ.js": "7f264176a26240ace059b7d036bcdd1d3d3a6ba8",
-    "/angular-todo-pwa/manifest.webmanifest": "d5363e020f96d9d9b132c6eb8b5e35687c2b309c",
+    "/angular-todo-pwa/main-W4H4VD4D.js": "a0eadedc5d3eec161b7b98a9127d648ff8d7f31e",
+    "/angular-todo-pwa/manifest.webmanifest": "045ecaf86f4db9e4042a0aff4c9aa6135f5f582c",
     "/angular-todo-pwa/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
     "/angular-todo-pwa/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
