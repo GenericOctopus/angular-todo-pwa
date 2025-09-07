@@ -59,6 +59,42 @@ npx http-server -p 8080 -c-1 dist/angular-todo-pwa/browser
 
 Then open your browser and navigate to `http://localhost:8080/`.
 
+## Deployment
+
+### GitHub Pages
+
+This project is configured for easy deployment to GitHub Pages. Follow these steps to deploy:
+
+1. Make sure you have a GitHub repository for this project
+2. Ensure your changes are committed and pushed to your repository
+3. Run the deploy script:
+
+```bash
+npm run deploy
+```
+
+This will:
+- Build the application with the correct base href for GitHub Pages
+- Create or update the `gh-pages` branch in your repository
+- Push the built application to the `gh-pages` branch
+
+4. After deployment, your application will be available at:
+   `https://[your-github-username].github.io/angular-todo-pwa/`
+
+5. If this is your first deployment, you may need to enable GitHub Pages in your repository settings:
+   - Go to your repository on GitHub
+   - Navigate to Settings > Pages
+   - Select the `gh-pages` branch as the source
+   - Save the changes
+
+### Custom Domain (Optional)
+
+If you want to use a custom domain:
+
+1. Add your domain in the GitHub repository settings
+2. Create a CNAME file in the `public` folder with your domain name
+3. Update the `baseHref` in `angular.json` to match your domain
+
 ## Technical Details
 
 ### Architecture
