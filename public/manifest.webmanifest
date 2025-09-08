@@ -5,8 +5,10 @@
   "theme_color": "#1976d2",
   "background_color": "#f5f5f5",
   "display": "standalone",
+  "orientation": "any",
   "scope": "./",
-  "start_url": "./",
+  "start_url": "./index.html",
+  "categories": ["productivity", "utilities"],
   "icons": [
     {
       "src": "./icons/icon-72x72.png",
@@ -55,6 +57,13 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./icons/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png"
     }
   ]
 }
